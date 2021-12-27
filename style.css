@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background: #ecf0f1;
+}
+
+.btn{
+	width: 150px;
+	height: 50px;
+	background: #e67e22;
+	border: none;
+	border-radius: 20px;
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+
+}
+.popup_bg{
+	width: 100%;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+.popup{
+	width: 500px;
+	height: 300px;
+	background: #e74c3c;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+h1{
+	font-size: 50px;
+	font-weight: 700;
+	text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.close{
+	font-size: 25px;
+	color: #fff;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
